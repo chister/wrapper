@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget28"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent">
+    <AbsoluteLayout android:id="@+id/absoluteLayout1" 
+    				android:layout_height="wrap_content" 
+    				android:layout_width="match_parent">
+        <Spinner android:id="@+id/spinner1" 
+        		 android:layout_width="fill_parent" 
+        		 android:layout_height="wrap_content"
+        		 android:layout_x="0dip" 
+        		 android:layout_y="0dip"
+        		 android:contentDescription="Select a Mobile Site">
+        </Spinner>
+    </AbsoluteLayout>
+	
+    <WebView android:id="@+id/webview" 
+    		 android:layout_width="match_parent" 
+    		 android:layout_height="match_parent">
+    </WebView>
+
+</LinearLayout>
